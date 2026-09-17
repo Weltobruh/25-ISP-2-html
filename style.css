@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(238, 217, 196);
+}    
+
+.text {
+    background-color: rgb(184, 168, 153);
+    text-align: center;
+
+    max-width: 600px;
+    margin: auto;
+
+    padding: 40px;
+}
+
+.gallery {
+    max-width: 680px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+}
+
+.bg-image {
+    margin: 0 auto 80px auto;
+    background-image: url('galery/img1.jpg');
+}
